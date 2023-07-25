@@ -701,6 +701,7 @@ ul {
 .contact-form form p {
     margin: 0;
     padding: 1em;
+    color: #f1fbff;
 }
 
 .contact-form form .block {
@@ -729,7 +730,7 @@ ul {
 
 /* CONTACT INFO */
 .contact-info {
-    background: #000;
+    background: #ffffff;
 }
 
 .contact-info h4,
