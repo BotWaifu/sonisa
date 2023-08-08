@@ -1,0 +1,43 @@
+$color-primario: black;
+$color-secundario: rgb(254, 2, 2);
+$color-terciario: white;
+
+//* list
+$paleta-colores: 
+red,
+white,
+black,
+orange,
+yellow;
+
+$font-size:
+18px,
+45px,
+3rem,
+1.5rem,
+2rem;
+
+//* OPERACIONES ARITMETICAS + - * /
+$ancho: 720px;
+
+//* MAPAS
+$boton:(
+    /*DENTRO DEL MAPA TENEMOS UN JUEGO DE PARES*/
+    //KEY-VALUE
+    bg-boton: black,
+    border-boton: 2px solid red,
+    color-text: white,
+);
+
+%flex {
+    display: flex;
+    align-items: center;
+} 
+
+@mixin flex ($flex, $justify, $align) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+   
+}
+
