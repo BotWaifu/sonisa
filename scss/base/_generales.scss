@@ -46,20 +46,10 @@ p{
 }
 
 .navbar-ligth .navbar-brand {
-    color: #000000;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-}
-
-.navbar-ligth .navbar-brand:focus,
-.navbar-ligth .navbar-brand:hover {
-    color: #000000;
-}
-
-.navbar-ligth .navbar-nav .navbar-link {
-    color: #000000;
 }
 
 .navbar-toggler {
@@ -73,8 +63,6 @@ p{
     padding: 100px 0;
 }
 .container-boton {
-    background-color: #2e6329;
-    border: 1px solid #fff;
     position: fixed;
     z-index: 999;
     border-radius: 50%;
@@ -88,7 +76,7 @@ p{
         transition: 0.3s;
     }
     .boton {
-        width: 50px;
+        width: 70px;
         transition: ease 1s;
     }
    
